@@ -1,0 +1,37 @@
+
+
+.tabs {
+  width: 100%;
+}
+
+.tab-list {
+  display: flex;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab {
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  color: #555;
+}
+
+.tab:last-child {
+  border-right: none;
+}
+
+.tab.active {
+  background-color: #fff;
+  border-bottom: 2px solid #007bff;
+  color: #007bff;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
